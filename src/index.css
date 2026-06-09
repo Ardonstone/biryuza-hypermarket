@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-biryuza-bg: #E6FAF9;
+  --color-biryuza-light: #B2F7EF;
+  --color-biryuza-brand: #38B2AC;
+  --color-biryuza-accent: #71D7BD;
+  --color-biryuza-dark: #24475B;
+}

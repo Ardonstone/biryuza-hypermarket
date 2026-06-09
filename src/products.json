@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Хлеб Бородинский ржаной нарезанный 330г",
+    "price": 33.99,
+    "img": "/src/assets/br-1.png",
+    "ai": true
+  },
+  {
+    "id": 2,
+    "name": "Сыр Almette творожный сливочный 150г",
+    "price": 214.99,
+    "img": "/src/assets/cheese.png"
+  },
+  {
+    "id": 3,
+    "name": "Масло сливочное 82,5% \"Прямо с фермы\" 100г",
+    "price": 199.99,
+    "img": "/src/assets/butter.png"
+  },
+  {
+    "id": 4,
+    "name": "Сельдь слабосоленая филе-кусочки 170г",
+    "price": 160.00,
+    "img": "/src/assets/herring.png"
+  },
+  {
+    "id": 5,
+    "name": "Зелень Укроп свежий 50г",
+    "price": 50.00,
+    "img": "/src/assets/dill.png"
+  }
+]
