@@ -1,16 +1,40 @@
-# React + Vite
+# Оптимизация пользовательского интерфейса онлайн-гипермаркета «Бирюза» с привлечением ИИ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивный SPA-прототип (MVP) сайта-гипермаркета с интегрированной имитацией интеллектуального интерфейсного ассистента «Бирюзович» на основе контекстного анализа состава корзины. Проект разработан в рамках магистерской диссертации.
 
-Currently, two official plugins are available:
+## 🔗 Демонстрация проекта
+* **[✨ Посмотреть работающий сайт (Live Demo)](https://ardonstone.github.io/biryuza-hypermarket/)**
+* **[🎨 Интерактивный прототип в Figma](https://www.figma.com/design/b2h16UbUDlJjJRxkDtZitN/%D0%A1%D0%B0%D0%B9%D1%82-%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B0-%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC?m=auto&t=t3DQIz86YbmmW1wh-6)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Основные результаты
+* **MVP с нуля:** Разработана и подготовлена к демонстрации готовая веб-платформа для крупного гипермаркета «Бирюза».
+* **Кастомная архитектура:** Создан чистый, компонентный и легко масштабируемый код клиентской части на React без использования тяжелых сторонних UI-библиотек.
+* **Высокая производительность:** Обеспечена быстрая скорость загрузки страниц (Green zone в Google Lighthouse) за счет оптимизации стилей Tailwind и мгновенной сборки через Vite.
 
-## React Compiler
+## 🛠 Технологический стек
+* **Design & UX:** Figma (проектирование User Flows, компонентная база с автолейаутами, интерактивный прототип)
+* **Frontend:** React, React Router DOM (клиентский роутинг для бесшовной навигации)
+* **Стилизация:** Tailwind CSS (адаптивная, кроссбраузерная верстка интерфейса)
+* **Инструменты:** Vite (сборка проекта), GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💎 Реализованный функционал
+* **Проектирование интерфейса:** Разработка пользовательских сценариев и создание детального интерактивного макета в Figma с использованием современных практик UI/UX.
+* **Интеллектуальный ассистент «Бирюзович»:** Эмуляция работы умного AI-помощника на фронтенде, который анализирует контекст корзины, предлагает релевантные кулинарные рецепты и позволяет в один клик добавить недостающие ингредиенты.
+* **Динамический каталог:** Реализация логики фильтрации товаров, управления состояниями компонентов (React State) и интерактивного взаимодействия с корзиной.
+* **SPA-навигация:** Бесшовная маршрутизация между ключевыми страницами (Главная, Каталог, Карточка товара, Корзина, Личный кабинет) без перезагрузки страниц и отправки лишних запросов на сервер.
+* **Mock-данные:** Эмуляция работы полноценного REST API с помощью локального хранилища данных о товарах.
 
-## Expanding the ESLint configuration
+## 📦 Развертывание и запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://github.com
+   ```
+2. Установить зависимости:
+   ```bash
+   npm install
+   ```
+3. Запустить проект в режиме разработки:
+   ```bash
+   npm run dev
+   ```
